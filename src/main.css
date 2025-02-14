@@ -1,0 +1,54 @@
+@import url('/src/styles/advertisement.css');
+@import url('/src/styles/button.css');
+@import url('/src/styles/input.css');
+@import url('/src/styles/select.css');
+@import url('/src/styles/typography.css');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ui-color-primary: #74B200;
+  --ui-color-thirdy: #F6F5FA;
+  --ui-color-black: #2A2C36;
+  --ui-color-gray: #636570;
+  --ui-color-gray-light: #898B94;
+  --ui-color-white-smoke: #F6F5FA;
+  --ui-color-white: #FFFFFF;
+  --ui-color-red: #F33939;
+
+  --ui-spacing-xs: 14px;
+  --ui-spacing-s: 16px;
+  --ui-spacing-m: 24px;
+  --ui-spacing-l: 32px;
+  --ui-spacing-xl: 36px;
+  --ui-spacing-xxl: 64px;
+
+  --ui-font-size-l: 24px;
+  --ui-font-size-m: 14px;
+  --ui-font-size-s: 13px;
+  --ui-font-h1: normal 600 var(--ui-font-size-l)/calc(var(--ui-font-size-l) * 1.4) "Inter", sans-serif;
+  --ui-font-text: normal 400 var(--ui-font-size-m)/calc(var(--ui-font-size-m) * 1.4) "Inter", sans-serif;
+  --ui-font-caption: normal 400 var(--ui-font-size-s)/calc(var(--ui-font-size-s) * 1.4) "Inter", sans-serif;
+
+  --ui-border-radius-l: 8px;
+
+  --ui-input-height-l: 56px;
+
+  --ui-button-height-m: 48px;
+}
+
+body {
+  background-color: var(--ui-color-thirdy);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: var(--ui-spacing-xl);
+}
+

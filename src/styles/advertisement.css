@@ -1,0 +1,89 @@
+.advertisement {
+  width: 1200px;
+  padding: var(--ui-spacing-l) var(--ui-spacing-l) var(--ui-spacing-xxl);
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--ui-spacing-xl);
+  border-radius: var(--ui-border-radius-l);
+  background-color: var(--ui-color-white);
+}
+
+.advertisement-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--ui-spacing-m);
+}
+
+.advertisement-fieldset {
+  display: grid;
+  grid-template-columns: 228px 1fr;
+}
+
+.advertisement-label {
+  margin-top: 18px;
+}
+
+.advertisement-field {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--ui-spacing-s);
+  grid-template-rows: auto auto;
+}
+
+.advertisement-caption {
+  max-width: 593px;
+}
+
+.advertisement-field > .input,
+.advertisement-field > .textarea,
+.advertisement-field > .select-wrapper {
+  max-width: calc(480px - calc(var(--ui-spacing-s) * 2));
+}
+
+.advertisement-field > .textarea {
+  min-height: 160px;
+}
+
+.advertisement-images {
+  display: grid;
+  align-items: center;
+  gap: var(--ui-spacing-s);
+  grid-template-columns: repeat(5, 120px);
+}
+
+.advertisement-image, .file-upload {
+  max-width: 100%;
+  height: 90px;
+  min-height: 90px;
+  border-radius: var(--ui-border-radius-l);
+  background-color: var(--ui-color-white-smoke);
+}
+
+.advertisement-image-wrapper {
+  position: relative;
+}
+
+.advertisement-image-delete {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--ui-color-white);
+}
+
+.advertisement-footer {
+  margin-top: var(--ui-spacing-m);
+  display: flex;
+  align-items: center;
+  column-gap: var(--ui-spacing-s);
+}
+
+.advertisement-caption {
+  max-width: 619px;
+}

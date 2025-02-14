@@ -1,0 +1,23 @@
+.typography-h1 {
+  font: var(--ui-font-h1);
+}
+
+.typography-text {
+  font: var(--ui-font-text);
+}
+
+.typography-caption {
+  font: var(--ui-font-caption);
+}
+
+.typography-black {
+  color: var(--ui-color-black);
+}
+
+.typography-gray {
+  color: var(--ui-color-gray);
+}
+
+.typography-red {
+  color: var(--ui-color-red);
+}
